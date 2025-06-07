@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whisko.Server", "EXE101_Whisko\Whisko.Server.csproj", "{5D9217CC-2B0A-4EAD-9A05-A7E7D24145FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whisko.Server", "Whisko.Server\Whisko.Server.csproj", "{57B6C253-2230-4051-A7A1-79CC4A42D878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5D9217CC-2B0A-4EAD-9A05-A7E7D24145FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D9217CC-2B0A-4EAD-9A05-A7E7D24145FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D9217CC-2B0A-4EAD-9A05-A7E7D24145FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D9217CC-2B0A-4EAD-9A05-A7E7D24145FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B6C253-2230-4051-A7A1-79CC4A42D878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B6C253-2230-4051-A7A1-79CC4A42D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B6C253-2230-4051-A7A1-79CC4A42D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B6C253-2230-4051-A7A1-79CC4A42D878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
