@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="Configs\Configurations\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Data\MetaDatas\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Extensions\" />
