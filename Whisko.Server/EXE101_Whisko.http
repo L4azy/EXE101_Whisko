@@ -1,0 +1,6 @@
+@EXE101_Whisko_HostAddress = http://localhost:5272
+
+GET {{EXE101_Whisko_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
