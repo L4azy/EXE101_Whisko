@@ -11,6 +11,17 @@ namespace Whisko.Server
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            // Register Cors policy to allow all origins, methods, and headers
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                    builder => builder.AllowAnyOrigin()
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader());
+            });
+
+            // Register Newtonsoft.Json for JSON serialization
             builder.Services.AddControllers()
                 .AddNewtonsoftJson(options =>
                 {
